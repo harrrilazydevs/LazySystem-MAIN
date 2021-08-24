@@ -8,6 +8,39 @@
   });
 
 
+  $('.emp_chg_profile').on('click', function(){
+
+    var id = $('.fd').attr('identifier');
+
+    let zmodal = new LazyModal();
+
+
+    zmodal.InitUpdateModalSingle("Update Profile Picture", '0', $('.fd').attr('identifier'), 1,'','/UNIV/EDIT', true);
+
+    zmodal.addFileInput('14','txtPicture');
+
+    zmodal.AlertOutput('Profile Picture updated successfully.');
+
+    zmodal.Show();
+
+    })
+
+    $('.emp_chg_signature').on('click', function(){
+
+    var id = $('.fd').attr('identifier');
+
+    let zmodal = new LazyModal();
+
+    zmodal.InitUpdateModalSingle("Update Signature", '0', $('.fd').attr('identifier'), 1,'','/UNIV/EDIT', true);
+
+    zmodal.addFileInput('13','txtPicture');
+
+    zmodal.AlertOutput('Signature updated successfully.');
+
+    zmodal.Show();
+
+    })
+
   
   $('#btnAccountInfo').on('click',function(){
 
