@@ -34,7 +34,7 @@ trait LdLib
 
     public static function GET_SIDEBAR_CONTENTS( $identifier ){
 
-        if( LdLib::GET_USER_ROLE( $identifier ) == 'DEVELOPER' )
+        if( LdLib::GET_USER_ROLE( $identifier ) == 'DEVELOPER' || LdLib::GET_USER_ROLE( $identifier ) == 'ADMINISTRATOR' )
         {
             $ld_sidebar = array(
                                     
