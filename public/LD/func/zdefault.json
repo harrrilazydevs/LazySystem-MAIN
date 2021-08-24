@@ -1,0 +1,28 @@
+{
+    "Default-Elements": [
+                 
+                            ["input","text"],
+                        
+                            ["input","date"],
+                        
+                            ["input","hidden"],
+                        
+                            ["input","checkbox"],
+                        
+                            ["input","image-file"],
+                        
+                            ["input","checkbox"],
+                        
+                            ["input","select"],
+                        
+                            ["header","title"],
+                            
+                            ["header","subtitle"],
+                        
+                            ["button",""],
+                        
+                            ["image","image"]
+                    
+                        ]
+
+}
