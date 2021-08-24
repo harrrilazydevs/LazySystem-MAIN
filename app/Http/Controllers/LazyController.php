@@ -563,7 +563,7 @@ class LazyController extends Controller
                 {
 
                     // if you are editing employee
-                    if( $TABLE == library::$_MAIN_TBL_EMPLOYEE )
+                    if( $TABLE == library::$_MAIN_TBL_EMPLOYEE_INFORMATION )
                     {
 
                         $path = $this->__REPLACE_EMPLOYEE_PICTURE( $EDITABLES['_MD'] , $TABLE_COLUMNS[$key], $DATA->file($key) );
@@ -571,7 +571,7 @@ class LazyController extends Controller
                         
 
                     }
-                    else if( $TABLE == library::$_MAIN_TBL_STUDENT)
+                    else if( $TABLE == library::$_MAIN_TBL_STUDENT_INFORMATION)
                     {
 
                     }
